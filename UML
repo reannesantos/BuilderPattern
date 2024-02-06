@@ -1,0 +1,16 @@
++----------------+          +----------------+
+|   User        |          |   Builder     |
++----------------+          +----------------+
+| -firstName    |          | -firstName    |
+| -lastName     |          | -lastName     |
+| -email        |          | -email        |
+| -address      |          | -address      |
+| -phone        |          | -phone        |
+| -age          |          | -age          |
++----------------+          +----------------+
+| +User(Builder)|          | +Builder()    |
+|               |          | | address(str)  |
+|               |          | | phone(str)   |
+|               |          | | age(int)     |
+|               |          | +build()      |
++----------------+          +----------------+
